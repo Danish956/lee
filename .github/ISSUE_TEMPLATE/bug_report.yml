@@ -25,3 +25,27 @@ body:
     attributes:
       label: "Actual Behavior"
       placeholder: "What happened instead?"
+
+name: "🖌 UI Fix"
+description: "Report UI issues or propose design improvements"
+labels: ["ui", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "### UI Problem or Suggestion"
+  - type: input
+    id: component
+    attributes:
+      label: "Which component?"
+      placeholder: "Button, Navbar, Modal, etc."
+  - type: textarea
+    id: issue
+    attributes:
+      label: "Describe the issue"
+      placeholder: "What's wrong with the UI or what needs improvement?"
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "Suggested solution"
+      placeholder: "How would you fix it?"
+
